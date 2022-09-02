@@ -1,7 +1,7 @@
-import re                              # the program is build using the regular expression package
+import re                              
 import string as s
 def register():
-    try:                              # this try and except is used because sometime user may dont have a database so i have created if there is non
+    try:                              # this try and except is used because sometime user may dont have a database so i have created if there is none
         data = open("data.txt", "r")
     except:
         data = open("data.txt",'x')
